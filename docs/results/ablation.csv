@@ -1,0 +1,7 @@
+dataset,variant,mse
+PVOD,CE-BiD,0.2701
+PVOD,without online update,0.3602
+PVOD,without OFA-KD,0.2722
+ST-EVCDP,CE-BiD,0.2506
+ST-EVCDP,without online update,0.2982
+ST-EVCDP,without OFA-KD,0.2517

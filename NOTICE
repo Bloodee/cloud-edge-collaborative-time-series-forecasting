@@ -1,0 +1,18 @@
+CE-BiD: Cloud-Edge Collaborative Time-Series Forecasting
+========================================================
+
+This repository is derived from and extends the Time-Series-Library (TSLib):
+https://github.com/thuml/Time-Series-Library
+
+TSLib is Copyright (c) 2021 THUML @ Tsinghua University and is distributed
+under the MIT License. The original copyright and permission notice are
+retained in LICENSE.
+
+Project-specific additions include the lightweight CNN edge model,
+cloud-to-edge distillation, reverse distillation, OFA-style regression
+distillation, local personalization, and the event-triggered online simulator.
+
+The OFA adaptation is inspired by:
+Hao et al., "One-for-All: Bridge the Gap Between Heterogeneous Architectures
+in Knowledge Distillation", NeurIPS 2023.
+https://github.com/Hao840/OFAKD

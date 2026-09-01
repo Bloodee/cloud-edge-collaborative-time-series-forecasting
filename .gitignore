@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Environments and local configuration
+.venv/
+venv/
+env/
+.env
+.env.*
+!.env.example
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Private local notes (never publish)
+docs/INTERVIEW_GUIDE_CN.md
+docs/PROJECT_DESCRIPTION.md
+
+# Model artifacts and runtime state
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.npy
+*.npz
+
+# Datasets are downloaded separately. Keep only their documentation.
+dataset/*
+!dataset/README.md
+
+# Generated experiment outputs
+results/
+!docs/results/
+!docs/results/*.csv
+!docs/results/README.md
+test_results/
+realtime_results/
+ablation_results_v5/
+benchmark_PVOD/
+sensitivity_results/
+m4_results/
+plots/
+plots_benchmark/
+plots_cdf_clean/
+*.log
+result_*.txt
+
+# Build / packaging
+build/
+dist/
+*.egg-info/
